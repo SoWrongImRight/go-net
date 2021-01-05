@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"sync"
-	// "net"
 )
 
 func worker(ports chan int, wg *sync.WaitGroup) {
